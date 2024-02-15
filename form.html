@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="fdiv">
+            <form>
+                <input type="text" name="name" placeholder="Full Name">
+            </form>
+            <form>
+                <input type="password" name="password" placeholder="Enter your password">
+            </form>
+            <div> 
+                <form>
+                    <p>What is your favourit football team ?</p> 
+                    <input type="radio" name="favourit team" id="Juventus"> <span>Juventus</span> 
+                    <input type="radio" name="favourit team" id="Barcelona"><span>Barcelona</span>
+                    <input type="radio" name="favourit team" id="Real Madrid"><span>Real Madrid</span>
+                    <input type="radio" name="favourit team" id="Bayern Munich"><span>Bayern Munich</span> 
+                    <input type="radio" name="favourit team" id="Other"><span>Other</span> 
+                </form>
+            </div>
+            <form>
+                <input list="Fcolor" name="Favourit Color" placeholder="Favourit color">
+                <datalist id="Fcolor">
+                    <option value="Blue"></option>
+                    <option value="Red"></option>
+                    <option value="Yellow"></option>
+                    <option value="Green"></option>
+                    <option value="Other"></option>
+                </datalist>
+            </form>
+            <form>
+            <input type="submit">
+            </form>
+        </div>
+        <a href="Home.html" class="bth">Back to Home</a>
+    </body>
+</html>
